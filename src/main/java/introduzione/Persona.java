@@ -43,7 +43,7 @@ public class Persona {
     }
 
     public void presentazione() {
-        System.out.println("Io sono p1 e il mio nome e' " + this.eta);
+        System.out.println("Io sono " + this.nome + " " + this.cognome + " e ho " + this.eta + " anni");
     }
 
     public static void main(String[] args) {
